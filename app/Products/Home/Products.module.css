@@ -1,0 +1,29 @@
+.posts {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  gap: 30px;
+}
+
+.post {
+  width: 300px;
+  margin: 0;
+  padding: 10px;
+  box-shadow: 1px 1px 4px 4px #00000040;
+  border-radius: 10px;
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
